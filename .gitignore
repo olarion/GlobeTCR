@@ -1,0 +1,37 @@
+# keep directories in the repository, but not the contents
+# all lines with .gitkeep will keep the folders
+# order matters
+#   files/folders to ignore followed by
+#   same files/folders to keep (.gitkeep)
+source/nc/
+!source/nc/.gitkeep
+source/aaa/*
+!source/aaa/.gitkeep
+source/altip/*
+!source/altip/.gitkeep
+source/bss/*
+!source/bss/.gitkeep
+source/lfdno/*
+!source/lfdno/.gitkeep
+source/nms/*
+!source/nms/.gitkeep
+source/nms_284/*
+!source/nms_284/.gitkeep
+target/*
+!target/.gitkeep
+tmp/*
+!tmp/.gitkeep
+# the following will not be included in the repository
+script/__pycache__/
+flask1/__pycache__/
+env/
+flask1/env/
+.env/
+flask1/.env/
+venv/
+flask1/venv/
+.venv/
+flask1/.venv/
+.DS_Store
+.DS_Store
+*.tmp
