@@ -36,7 +36,7 @@ sql_file    = f'{glbdm_no}.sql'
 target_file = f'{glbdm_no}_validation.csv'
 
 # Folder names
-db_file         = 'db.duckdb'
+db_file         = f'{glbdm_no}_db.duckdb'
 SOURCE_DIR_NAME = 'source'
 TARGET_DIR_NAME = 'target'
 SQL_DIR_NAME    = 'sql'
